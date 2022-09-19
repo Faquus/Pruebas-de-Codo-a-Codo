@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Codo a Codo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">CodoACodo</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#">Link</a></li>
+            <li ><a>Desactivado</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="form-group" >
+              <input type="text" class="form-control" placeholder="Buscar">
+            </div>
+            <button type="submit" class="btn btn-default">Buscar</button>
+          </form>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4"> 
+                <div class="card ">
+                    <div class="card-head">
+                        <img src="HTML5.jpg" alt="HTML5" width="490" height="300">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-tittle"> Titulo 3 </h3>
+                        <h4> Contenido del card</h4>
+                    </div>
+                    <div class="card-footer" >
+                        <p class="card-text"> Ultima actualizacion 1 </p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-sm-4"> 
+                <div class="card">
+                    <div class="card-head">
+                        <img src="CSS.png" alt="CSS" width="490" height="300">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-tittle"> Titulo 2 </h3>
+                        <h4> Contenido del card</h4>
+                    </div>
+                    <div class="card-footer" >
+                        <p class="card-text"> Ultima actualizacion 1 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4"> 
+                <div class="card">
+                    <div class="card-head">
+                        <img src="bootstrap.png" alt="Bootstrap" width="490" height="300">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-tittle"> Titulo 3 </h3>
+                        <h4> Contenido del card</h4>
+                    </div>
+                    <div class="card-footer" >
+                        <p class="card-text"> Ultima actualizacion 1 </p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <form action="/action_page.php" >
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email">
+          <p for="email">Nunca comparta su email.</p>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Contraseña</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Verificar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    
+</body>
+</html>
